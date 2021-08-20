@@ -1,0 +1,79 @@
+class Canine {
+
+private String eats;
+private String breathes;
+private int NoOfLegs;
+
+public Canine () {}
+
+public Canine(String food, String air, int legs){
+  this.eats=food;
+  this.breathes=air;
+  this.NoOfLegs=legs;
+ }
+ 
+ public String getEats(){
+  return eats;
+  }
+  
+  public void setEats(String eats){
+    this.eats=eats;
+  }
+  
+  public String getBreathes(){
+    return breathes;
+    }
+    
+  public void setBreathes(String breathes){
+    this.breathes=breathes;
+  }
+    public String getBreathes(){
+    return breathes;
+    }
+    
+  
+  public void setNoOfLegs(String NoOfLegs){
+    this.NoOfLegs=NoOfLegs;
+  }
+ }
+ 
+ 
+ public class Dog1 extends Canine{
+ 
+  private String colour;
+  
+  public Dog1(String food, String air, int legs){
+  
+  super(food,air,legs);
+  this.colour = colour;
+ }
+ 
+ public String getColour(){
+ return colour;
+ }
+ 
+ public void setColour(String colour){
+  this.colour=colour;
+  }
+  }
+  
+  
+  public class CanineInherit{
+  
+  public static void main (String[]args){
+    Dog Dog = newDog("food""air""4""brown");
+    
+    System.out.println("Dog eats" + dog.getEats());
+    
+    System.out.println("Dog breathes" + dog.getBreathes());
+   
+   System.out.println("Dog has" + dog.getEats()+ "legs");
+   
+   System.out.println("Dog colour is" + dog.getColour());
+   }
+   }
+   
+   
+   
+    
+    
