@@ -1,1 +1,15 @@
+class Main {
+public static void main (String[]args){
 
+Bike bike = newBike();
+bike.brakes();
+}
+}
+
+
+
+public class Bike {
+  public void brakes (){
+  System.out.println("Can Brake");
+}  
+}
